@@ -1,0 +1,49 @@
+# ============================================================
+#  Smart E-commerce — .gitignore
+# ============================================================
+
+# ------ Backend (Spring Boot / Maven) ------
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.iml
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/*.log
+
+# ------ Frontend (Angular) ------
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.env
+frontend/*.log
+
+# ------ Environment / Secrets ------
+*.env
+application-prod.properties
+application-local.properties
+
+# ------ OS files ------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------ IDE ------
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+.vs/
+
+# ------ Logs ------
+*.log
+logs/
+
+# ------ Java ------
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
