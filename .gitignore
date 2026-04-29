@@ -3,6 +3,7 @@
 # ============================================================
 
 # ------ Backend (Spring Boot / Maven) ------
+C:\ecommerce\backend\src\main\resources\application.properties
 backend/target/
 backend/.mvn/wrapper/maven-wrapper.jar
 backend/*.iml

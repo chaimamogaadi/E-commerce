@@ -185,8 +185,6 @@ Frontend runs on `http://localhost:4200`
 
 ## Environment Notes
 
-- The JWT secret must be at least 256 bits (64 hex characters). The one in `application.properties` is 512-bit and safe for development.
-- Never commit `application.properties` with real credentials to a public repository.
 - `ollama serve` must be running in a separate terminal whenever you use the chatbot.
 - On Windows always use `mvnw.cmd` not `./mvnw`.
 
